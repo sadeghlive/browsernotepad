@@ -1,0 +1,33 @@
+.li {
+    padding: 30px;
+    list-style: none;
+    background-color: #1ab3e6;
+    margin: 25px;
+    border-radius: 7px;
+    color: white;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -khtml-user-select: none; 
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    transition: ease 0.15s;
+    border: 1px solid transparent;
+    box-shadow : 0 0 10px #1ab3e6
+}
+.li:hover {
+    
+    background-color: #11191f;
+    border: 1px solid #1ab3e6;
+    box-shadow: 0 0 30px #1ab3e6;
+}
+.rm-button {
+    float: left;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+.rm-button:hover {
+    background-color: #1ab3e6;
+    color: #11191f;
+}

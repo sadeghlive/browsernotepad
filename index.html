@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.css"
+    integrity="sha512-NXUhxhkDgZYOMjaIgd89zF2w51Mub53Ru3zCNp5LTlEzMbNNAjTjDbpURYGS5Mop2cU4b7re1nOIucsVlrx9fA=="
+    crossorigin="anonymous"
+/>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="./custom.css">
+    <title>browser notepad</title>
+</head>
+<body>
+    <main class="container">
+
+        <div class="grid">
+            
+            <div>
+                <form>
+                <textarea name="note" id="textarea" cols="30" rows="10" placeholder="مثلا هوا چطور است "></textarea>
+                <button>زخیره</button>
+            </form>
+            </div>
+            <div>
+                <h4>نوشته های اخیر</h4>
+                <div id="note-list">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"
+			integrity="sha512-lOrm9FgT1LKOJRUXF3tp6QaMorJftUjowOWiDcG5GFZ/q7ukof19V0HKx/GWzXCdt9zYju3/KhBNdCLzK8b90Q=="
+			crossorigin="anonymous"
+		></script>
+<script src="./app.js"></script>
+</html>
